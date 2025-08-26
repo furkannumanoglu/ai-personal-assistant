@@ -1,0 +1,29 @@
+{
+  "name": "desktop-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "electron": "electron .",
+    "electron-dev": "NODE_ENV=development electron .",
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^latest",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^latest",
+    "@babel/preset-react": "^latest",
+    "babel-loader": "^latest",
+    "html-webpack-plugin": "^latest",
+    "webpack": "^latest",
+    "webpack-cli": "^latest",
+    "webpack-dev-server": "^latest"
+  }
+}
